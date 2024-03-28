@@ -76,7 +76,7 @@ def strategyPath(jsonResponse):
     # (Just adding the movements of the skill with cost 0 to the player node should prioritize the use of these by dijkstra)
     
     # Add Here the id of the skills
-    listIdMovementSkills = [28, 8] # 28: Double Time  8: Run run run
+    listIdMovementSkills = [19, 8] # 28: Double Time  8: Run run run
     
     # If any movement skill is available to use, it will use it, no restrictions of energy for now
     
@@ -294,8 +294,8 @@ def strategySkills(jsonResponse):
     Count = 0
     
     # Add here the id of the skills
-    listIdSkills = [41, 12, 45, 2]
-    listIdObjectivesTiles = [0]
+    listIdSkills = [35, 31, 38, 28, 10, 9, 20, 21, 22, 45, 54, 2, 53]
+    listIdObjectivesTiles = [0, 2, 7, 8, 9, 10, 13, 14, 15]
     
     # # 1: Ryo  2: Kix  3: Llama  4: Ripper 5: Buzz  100: Player  200: Enemy
     listIdObjectivesAgents = [2, 200]
