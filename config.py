@@ -68,7 +68,7 @@ GO_BUZZ = False
 
 GO_EXIT = True
 
-GO_TELEPORT = True
+GO_TELEPORT = False
 
 # XD
 GO_RIPPER = False
