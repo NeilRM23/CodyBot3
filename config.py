@@ -85,7 +85,7 @@ DEFAULT_ATTACK = False
 # Similar to follow rules. If one of the below options are True it will overlap DEFAULT_ATTACK option
 # Set the targets you want to attack to True
 
-ATTACK_ENEMY = False
+ATTACK_ENEMY = True
 
 ATTACK_RYO = False
 
