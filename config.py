@@ -20,7 +20,7 @@ if ImportFailed:
 # The numbers corresponding to the game modes can be obtained from the api doc https://codyfight.com/api-doc
 # Change this variable if you want to deploy in the other modes
 # 0 = Sandbox  /  1 = Friendly Duel  /  3 = Llama Maze
-GAMEMODE = 0
+GAMEMODE = 3
 
 # This variable defines if the json responses are stored
 # Change this variable to False so that it does not save the history, recommended if the bot is deployed in the cloud
